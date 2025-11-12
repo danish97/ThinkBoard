@@ -29,7 +29,6 @@ const HomePage = () => {
       finally{
         setLoading(false);
       }
-      
     };
     fetchNotes();
   },  []);
